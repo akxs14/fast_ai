@@ -9,7 +9,12 @@ Fast AI course material
 
 - Install packages (pytorch, torchivision, torchaudio, jupyterlab and fastai)
 
-  	 pip install jupyterlab
-	 conda install pytorch torchvision torchaudio -c pytorch
-	 conda install -c fastchan fastai anaconda
+		conda config --add channels conda-forge
+		conda config --set channel_priority strict 
+
+		pip3 install --upgrade pip
+
+		pip3 install jupyter
+
+		pip3 install fastai
 
